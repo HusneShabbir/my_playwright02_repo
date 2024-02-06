@@ -1,12 +1,9 @@
 1
 2
 3
-<<<<<<< HEAD
-ekk
-do
-teen
-=======
 one
 two
 Merged code line
->>>>>>> to_be_merged
+apple 
+banana
+orange
