@@ -7,3 +7,5 @@ Merged code line
 apple 
 banana
 orange
+pomogranate
+pineapple
