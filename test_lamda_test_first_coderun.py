@@ -7,12 +7,12 @@ import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
 
 capabilities = {
-    'browserName': 'pw-firefox',  # Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
+    'browserName': 'pw-webkit',  # Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
     'browserVersion': 'latest',
     'LT:Options': {
-        'platform': 'macOS Big Sur',
-        'build': 'sample firefox with macOS Big Sur',
-        'name': 'Firefox_Playwright Test with macOS',
+        'platform': 'Windows 11',
+        'build': 'Chromewith Windows 11',
+        'name': 'Chrome_Playwright Test with Windows 11',
         'user': 'shabbirhusne447',
         'accessKey': 'ZxM4deURbRUFkWatZ2CRum2t8CSVJ4PgwDWsI2ChY1FnxboO3B',
         'network': True,

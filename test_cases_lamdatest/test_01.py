@@ -11,8 +11,8 @@ capabilities = {
     'browserVersion': 'latest',
     'LT:Options': {
         'platform': 'macOS Big Sur',
-        'build': 'Chrome_sample with macOS Big Sur_Tanveer_demoview',
-        'name': 'Tanveer_demo Chrome_Playwright Test with macOS',
+        'build': 'Chrome_sample test with macOS Big Sur',
+        'name': 'Chrome_Playwright Testing with macOS',
         'user': 'shabbirhusne447',
         'accessKey': 'ZxM4deURbRUFkWatZ2CRum2t8CSVJ4PgwDWsI2ChY1FnxboO3B',
         'network': True,
@@ -41,9 +41,6 @@ def test_sample_run(username, password):
         page = browser.new_page()
         try:
             page.goto("https://www.saucedemo.com/v1/")
-            # Generate lighthouse report for the required URL.
-            # You can generate multiple lighthouse reports in a test by executing this function anywhere in the test.
-            # generate_lighthouse_report(page, "https://duckduckgo.com")
             page.locator("[data-test=\"username\"]").fill(username)
             page.locator("[data-test=\"password\"]").fill(password)
             page.get_by_role("button", name="LOGIN").click()
