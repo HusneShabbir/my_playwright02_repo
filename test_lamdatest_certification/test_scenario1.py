@@ -12,12 +12,13 @@ capabilities = {
     'browserVersion': 'latest',
     'LT:Options': {
         'platform': 'Windows 11',
-        'build': 'scenario1_lamdatest',
-        'name': 'Chrome_scenario1 with Windows 11',
+        'build': 'Playwright_Certification_101',
+        'name': 'scenario1 with Windows 11',
         'user': 'shabbirhusne447',
         'accessKey': 'ZxM4deURbRUFkWatZ2CRum2t8CSVJ4PgwDWsI2ChY1FnxboO3B',
         'network': True,
         'video': True,
+        'visual': True,
         'console': True,
         'tunnel': False,  # Add tunnel configuration if testing locally hosted webpage
         'tunnelName': '',  # Optional
