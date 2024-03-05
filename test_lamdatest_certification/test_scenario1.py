@@ -51,7 +51,7 @@ def test_scenario1_run():
             set_test_status(page, "failed", str(err))
 
         browser.close()
-
+#
 
 def set_test_status(page, status, remark):
     page.evaluate("_ => {}",
